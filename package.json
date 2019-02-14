@@ -1,8 +1,8 @@
 {
-  "name": "insight-lite-ui",
+  "name": "insight-sexcoin-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
-  "version": "0.4.6",
-  "repository": "git://github.com/litecoin-project/insight-lite-ui.git",
+  "version": "0.4.61",
+  "repository": "git://github.com/Sxcmarket/insight-sexcoin-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/bitpay/insight-ui/issues"
   },
-  "homepage": "https://github.com/litecoin-project/insight-lite-ui",
+  "homepage": "https://github.com/Sxcmarket/insight-sexcoin-ui",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -38,8 +38,9 @@
     "litecore",
     "front-end"
   ],
-  "bitcoreNode": "litecore-node",
-  "dependencies": {},
+  "bitcoreNode": "git://github.com/sxcmarket/sexcore-node.git",
+  "dependencies": {
+  },
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
