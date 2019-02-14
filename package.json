@@ -1,7 +1,7 @@
 {
   "name": "insight-sexcoin-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
-  "version": "0.4.61",
+  "version": "0.4.62",
   "repository": "git://github.com/Sxcmarket/insight-sexcoin-ui.git",
   "contributors": [
     {
