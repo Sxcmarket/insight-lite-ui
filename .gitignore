@@ -1,0 +1,6 @@
+node_modules
+*~
+*.bkup
+*.min.js
+*.static
+public/lib/
