@@ -54,7 +54,11 @@
         </tr>
         <tr data-ng-show="tx.fees">
           <td><strong translate>Fee Rate</strong></td>
+<<<<<<< HEAD
           <td class="text-muted text-right">{{$root.currency.getConvertion((tx.fees * 1000) / tx.size) + ' per kB' || ((tx.fees * 1000) / tx.size) + 'SXC per kB'}}</td>
+=======
+          <td class="text-muted text-right">{{$root.currency.getConvertion((tx.fees * 1000) / tx.size) + ' per kB' || ((tx.fees * 1000) / tx.size) + 'LTC per kB'}}</td>
+>>>>>>> d51aee4d82c64e4f01d103e1ed1dc6e2b5759b17
         </tr>
         <tr>
           <td><strong translate>Received Time</strong></td>
