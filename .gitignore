@@ -47,3 +47,8 @@ public/css/main.css
 README.html
 po/*
 !po/*.po
+*~
+*.bkup
+*.static
+public/lib/
+public/src/safety

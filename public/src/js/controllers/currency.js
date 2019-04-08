@@ -19,11 +19,11 @@ angular.module('insight.currency').controller('CurrencyController',
         var response;
 
         if (this.symbol === 'USD') {
-          response = _roundFloat((value * this.factor), 2);
-        } else if (this.symbol === 'lites') {
+          response = _roundFloat((value * this.factor), 4);
+        } else if (this.symbol === 'mSXC') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'photons') {
+        } else if (this.symbol === 'uSXC') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
@@ -45,11 +45,11 @@ angular.module('insight.currency').controller('CurrencyController',
 
       if (currency === 'USD') {
         Currency.get({}, function(res) {
-          $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+          $rootScope.currency.factor = $rootScope.currency.rate = res.data.rate;
         });
-      } else if (currency === 'lites') {
+      } else if (currency === 'mSXC') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'photons') {
+      } else if (currency === 'uSXC') {
         $rootScope.currency.factor = 1000000;
       } else {
         $rootScope.currency.factor = 1;
@@ -58,7 +58,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
     // Get initial value
     Currency.get({}, function(res) {
-      $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
+      $rootScope.currency.factor = $rootScope.currency.rate = res.data.rate;
     });
 
   });

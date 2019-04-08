@@ -2,7 +2,10 @@
   "name": "insight-sexcoin-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
   "version": "0.4.64",
-  "repository": "git://github.com/Sxcmarket/insight-sexcoin-ui.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sxcmarket/insight-sexcoin-ui.git"
+  },
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -39,8 +42,7 @@
     "front-end"
   ],
   "bitcoreNode": "sexcore-node",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
@@ -53,5 +55,38 @@
     "grunt-css": "~0.5.4",
     "grunt-markdown": "~0.5.0",
     "grunt-angular-gettext": "^0.2.15"
-  }
+  },
+  "gitHead": "d51aee4d82c64e4f01d103e1ed1dc6e2b5759b17",
+  "_id": "insight-sexcoin-ui@0.4.64",
+  "scripts": {},
+  "_shasum": "59bd08fd051704b2762fe49868d384c7ad2b7739",
+  "_from": "insight-sexcoin-ui@>=0.4.63 <0.5.0",
+  "_npmVersion": "2.15.11",
+  "_nodeVersion": "4.9.1",
+  "_npmUser": {
+    "name": "sxcmarket",
+    "email": "sxcmarket@gmail.com"
+  },
+  "dist": {
+    "shasum": "59bd08fd051704b2762fe49868d384c7ad2b7739",
+    "tarball": "https://registry.npmjs.org/insight-sexcoin-ui/-/insight-sexcoin-ui-0.4.64.tgz",
+    "integrity": "sha512-OKBqDjrYxjnHb9zkb10YARaDf+2xXfCYGMHnYqDwbPnDwDdVGretovgqpZl4/REMhCpomB4WeoMSoAWXq9j30g==",
+    "fileCount": 95,
+    "unpackedSize": 1095536,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZZYnCRA9TVsSAnZWagAA3r4P/2UpDAB9w+ya/XCdb48T\nZ4chfPW39UJMluEA1Yz88LVYMAiBk6Up/gNERRq4D9Hz9a+ugV7y3Oh/oXTM\nusFQvpl23JqghGG+UK54nEnEsAeWPJRwdfqpfl2YopjSkpZ4s0SC1EhxcSSy\nWvqh2I8BIOFFgPR384jZ1bH3DfEQCagxZaPXFxEyLHakzTsebnXziamHh2LI\nZJmBxpVAI907z7togmfoWMOhT7X1UC0iouc4MP1gAqsIPeRv3R3AEye0wZD6\n0HYdmEFUqHG3zq+mD5YU2jwapvKzzJKEefGAsCPUilVsoF7ezddrBA4CiBVG\n7Py6aTDdFJ5oFoMhSQirMY29YM026FS3lfzqmT4JVQXhT7cMSlQRQEgIOtm3\ndy+uePwiOfYhKl/+cSdCDi3BJEW9pvigq9PrOcCRJD6c1Qij8c31MgdqZ+kt\nDZn3dLJOJbCGjw7i6t2GXzIna7hdWEzr2HhjpLFN4IPmVgDWDseoQXSMs/zU\nMzO0uik5/Tg3AvjdEuOfLjQX+oiN/IltZxCpFGyf8wHK3pUZxjjo0adqkQtk\nkWQeeOUiTd8iF5VKJYAaeYyY/H+M0AtjuVfInErw0K2B+oZeB/meBbvm677x\njkMkHsefmj70KX0juHnFL9mjjhLSfqJbrgMn7HWqykgYv30fLx416Ug4qiLD\nA8bb\r\n=UHjx\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "sxcmarket",
+      "email": "sxcmarket@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/insight-sexcoin-ui_0.4.64_1550161446844_0.04358779898788012"
+  },
+  "_hasShrinkwrap": false,
+  "_resolved": "https://registry.npmjs.org/insight-sexcoin-ui/-/insight-sexcoin-ui-0.4.64.tgz",
+  "readme": "ERROR: No README data found!"
 }

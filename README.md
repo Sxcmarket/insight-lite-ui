@@ -1,22 +1,22 @@
 # Insight UI
 
-A Litecoin blockchain explorer web application service for [Litecore Node](https://github.com/litecoin-project/litecore-node) using the [Insight API](https://github.com/litecoin-project/insight-lite-api).
+A Sexcoin blockchain explorer web application service for [Sexcore Node](https://github.com/Sxcmarket/sexcore-node) using the [Insight API](https://github.com/Sxcmarket/insight-sexcoin-api), developed for Bitcoin and Litecoin.
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/litecoin-project/litecore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Sexcore](https://github.com/sexcoin-project/sexcore-sexcoin).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g litecore-node
+npm install -g sexcore-node
 litecore-node create mynode
 cd mynode
-litecore-node install insight-lite-api
-litecore-node install insight-lite-ui
-litecore-node start
+sexcore-node install insight-sexcoin-api
+sexcore-node install insight-sexcoin-ui
+sexcore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/litecoin-project/insight-lite-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/litecoin-project/insight-lite-api).
+For more details about the [Insight API](https://github.com/Sxcmarket/insight-sexcoin-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/Sxcmarket/insight-sexcoin-api)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/litecoin-project/insight-lite-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/Sxcmarket/insight-sexcoin-api)
 
 
 ## License

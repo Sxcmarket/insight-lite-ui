@@ -6,8 +6,8 @@ angular.module('insight.system').controller('HeaderController',
 
     $rootScope.currency = {
       factor: 1,
-      bitstamp: 0,
-      symbol: 'LTC'
+      rate: 0,
+      symbol: 'SXC'
     };
 
     $scope.menu = [{
